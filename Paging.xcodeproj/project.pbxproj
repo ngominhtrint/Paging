@@ -18,6 +18,20 @@
 		EBBD65EC21E5A6C3002AF79A /* PagingCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBBD65EB21E5A6C3002AF79A /* PagingCellViewModel.swift */; };
 		EBBD65EE21E5A77F002AF79A /* IndexedPagingItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBBD65ED21E5A77F002AF79A /* IndexedPagingItem.swift */; };
 		EBBD65F021E5A99D002AF79A /* PagingDiff.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBBD65EF21E5A99D002AF79A /* PagingDiff.swift */; };
+		EBE18CBF21E6DD280099EA6F /* InvalidationState.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE18CBE21E6DD280099EA6F /* InvalidationState.swift */; };
+		EBE18CC221E6DE870099EA6F /* PagingInvalidationContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE18CC121E6DE870099EA6F /* PagingInvalidationContext.swift */; };
+		EBE18CC421E6E0000099EA6F /* PagingBorderOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE18CC321E6E0000099EA6F /* PagingBorderOptions.swift */; };
+		EBE18CC621E6E0760099EA6F /* PagingContentInteraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE18CC521E6E0760099EA6F /* PagingContentInteraction.swift */; };
+		EBE18CC821E6E36D0099EA6F /* PagingEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE18CC721E6E36D0099EA6F /* PagingEvent.swift */; };
+		EBE18CCA21E6E59A0099EA6F /* PagingIndicatorOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE18CC921E6E59A0099EA6F /* PagingIndicatorOptions.swift */; };
+		EBE18CCC21E6E74B0099EA6F /* PagingMenuHorizontalAlignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE18CCB21E6E74B0099EA6F /* PagingMenuHorizontalAlignment.swift */; };
+		EBE18CCE21E6E7D60099EA6F /* PagingMenuInteraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE18CCD21E6E7D60099EA6F /* PagingMenuInteraction.swift */; };
+		EBE18CD021E6E85A0099EA6F /* PagingMenuItemSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE18CCF21E6E85A0099EA6F /* PagingMenuItemSize.swift */; };
+		EBE18CD221E6E9F50099EA6F /* PagingMenuTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE18CD121E6E9F50099EA6F /* PagingMenuTransition.swift */; };
+		EBE18CD421E6EA910099EA6F /* PagingSelectedScrollPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE18CD321E6EA910099EA6F /* PagingSelectedScrollPosition.swift */; };
+		EBE18CD621E6EB4B0099EA6F /* PagingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE18CD521E6EB4B0099EA6F /* PagingState.swift */; };
+		EBE18CD821E6F1E90099EA6F /* PagingMenuItemSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE18CD721E6F1E90099EA6F /* PagingMenuItemSource.swift */; };
+		EBE18CDA21E6F22E0099EA6F /* PagingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE18CD921E6F22E0099EA6F /* PagingCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +59,20 @@
 		EBBD65EB21E5A6C3002AF79A /* PagingCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingCellViewModel.swift; sourceTree = "<group>"; };
 		EBBD65ED21E5A77F002AF79A /* IndexedPagingItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndexedPagingItem.swift; sourceTree = "<group>"; };
 		EBBD65EF21E5A99D002AF79A /* PagingDiff.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingDiff.swift; sourceTree = "<group>"; };
+		EBE18CBE21E6DD280099EA6F /* InvalidationState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvalidationState.swift; sourceTree = "<group>"; };
+		EBE18CC121E6DE870099EA6F /* PagingInvalidationContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingInvalidationContext.swift; sourceTree = "<group>"; };
+		EBE18CC321E6E0000099EA6F /* PagingBorderOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingBorderOptions.swift; sourceTree = "<group>"; };
+		EBE18CC521E6E0760099EA6F /* PagingContentInteraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingContentInteraction.swift; sourceTree = "<group>"; };
+		EBE18CC721E6E36D0099EA6F /* PagingEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingEvent.swift; sourceTree = "<group>"; };
+		EBE18CC921E6E59A0099EA6F /* PagingIndicatorOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingIndicatorOptions.swift; sourceTree = "<group>"; };
+		EBE18CCB21E6E74B0099EA6F /* PagingMenuHorizontalAlignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingMenuHorizontalAlignment.swift; sourceTree = "<group>"; };
+		EBE18CCD21E6E7D60099EA6F /* PagingMenuInteraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingMenuInteraction.swift; sourceTree = "<group>"; };
+		EBE18CCF21E6E85A0099EA6F /* PagingMenuItemSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingMenuItemSize.swift; sourceTree = "<group>"; };
+		EBE18CD121E6E9F50099EA6F /* PagingMenuTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingMenuTransition.swift; sourceTree = "<group>"; };
+		EBE18CD321E6EA910099EA6F /* PagingSelectedScrollPosition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingSelectedScrollPosition.swift; sourceTree = "<group>"; };
+		EBE18CD521E6EB4B0099EA6F /* PagingState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingState.swift; sourceTree = "<group>"; };
+		EBE18CD721E6F1E90099EA6F /* PagingMenuItemSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingMenuItemSource.swift; sourceTree = "<group>"; };
+		EBE18CD921E6F22E0099EA6F /* PagingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +115,7 @@
 		EBBD65C621E59BC2002AF79A /* Paging */ = {
 			isa = PBXGroup;
 			children = (
+				EBE18CC021E6DE760099EA6F /* Classes */,
 				EBBD65E621E5A34E002AF79A /* Enums */,
 				EBBD65E321E59E45002AF79A /* Protocols */,
 				EBBD65DE21E59CD3002AF79A /* Structs */,
@@ -129,9 +158,30 @@
 		EBBD65E621E5A34E002AF79A /* Enums */ = {
 			isa = PBXGroup;
 			children = (
+				EBE18CBE21E6DD280099EA6F /* InvalidationState.swift */,
+				EBE18CC321E6E0000099EA6F /* PagingBorderOptions.swift */,
+				EBE18CC521E6E0760099EA6F /* PagingContentInteraction.swift */,
 				EBBD65E721E5A369002AF79A /* PagingDirection.swift */,
+				EBE18CC721E6E36D0099EA6F /* PagingEvent.swift */,
+				EBE18CC921E6E59A0099EA6F /* PagingIndicatorOptions.swift */,
+				EBE18CCB21E6E74B0099EA6F /* PagingMenuHorizontalAlignment.swift */,
+				EBE18CCD21E6E7D60099EA6F /* PagingMenuInteraction.swift */,
+				EBE18CCF21E6E85A0099EA6F /* PagingMenuItemSize.swift */,
+				EBE18CD121E6E9F50099EA6F /* PagingMenuTransition.swift */,
+				EBE18CD321E6EA910099EA6F /* PagingSelectedScrollPosition.swift */,
+				EBE18CD521E6EB4B0099EA6F /* PagingState.swift */,
+				EBE18CD721E6F1E90099EA6F /* PagingMenuItemSource.swift */,
 			);
 			path = Enums;
+			sourceTree = "<group>";
+		};
+		EBE18CC021E6DE760099EA6F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				EBE18CC121E6DE870099EA6F /* PagingInvalidationContext.swift */,
+				EBE18CD921E6F22E0099EA6F /* PagingCell.swift */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,14 +293,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBE18CCC21E6E74B0099EA6F /* PagingMenuHorizontalAlignment.swift in Sources */,
+				EBE18CCE21E6E7D60099EA6F /* PagingMenuInteraction.swift in Sources */,
+				EBE18CC821E6E36D0099EA6F /* PagingEvent.swift in Sources */,
+				EBE18CD421E6EA910099EA6F /* PagingSelectedScrollPosition.swift in Sources */,
+				EBE18CD621E6EB4B0099EA6F /* PagingState.swift in Sources */,
+				EBE18CD021E6E85A0099EA6F /* PagingMenuItemSize.swift in Sources */,
 				EBBD65EC21E5A6C3002AF79A /* PagingCellViewModel.swift in Sources */,
+				EBE18CDA21E6F22E0099EA6F /* PagingCell.swift in Sources */,
+				EBE18CD221E6E9F50099EA6F /* PagingMenuTransition.swift in Sources */,
+				EBE18CCA21E6E59A0099EA6F /* PagingIndicatorOptions.swift in Sources */,
 				EBBD65E221E59D9B002AF79A /* PagingItems.swift in Sources */,
 				EBBD65F021E5A99D002AF79A /* PagingDiff.swift in Sources */,
 				EBBD65E021E59CF3002AF79A /* PagingTransition.swift in Sources */,
 				EBBD65E521E59E5A002AF79A /* PagingItem.swift in Sources */,
 				EBBD65E821E5A369002AF79A /* PagingDirection.swift in Sources */,
+				EBE18CBF21E6DD280099EA6F /* InvalidationState.swift in Sources */,
+				EBE18CC421E6E0000099EA6F /* PagingBorderOptions.swift in Sources */,
 				EBBD65EA21E5A4D7002AF79A /* PagingIndicatorMetric.swift in Sources */,
+				EBE18CD821E6F1E90099EA6F /* PagingMenuItemSource.swift in Sources */,
 				EBBD65EE21E5A77F002AF79A /* IndexedPagingItem.swift in Sources */,
+				EBE18CC621E6E0760099EA6F /* PagingContentInteraction.swift in Sources */,
+				EBE18CC221E6DE870099EA6F /* PagingInvalidationContext.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
